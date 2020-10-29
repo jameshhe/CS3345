@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0 0 2rem 0;
+}
+
+main > * {
+    display: none;
+}
+
+main > .active {
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    width: 100%;
+    padding: 1em 10em 1em 1em;
+    background-color: black;
+    color: white;
+    display: flex;
+    overflow: auto;
+}
+
+h2 {
+    margin-left: 2rem;
+}
+/*Profile cards*/
+#homeView ul{
+    margin: 0;
+    padding: 0;
+}
+
+.profile_card {
+    display: inline-block;
+    width: 45%;
+    border: solid;
+    padding: 2em;
+    margin-bottom: 2em;
+    margin-left: 2rem;
+}
+
+.profile_card img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.profile_card p span {
+    background-color: lightgray;
+    border: none;
+    font-size: 0.8em;
+    padding: 0.2em 0.6em;
+    border-radius: 1rem;
+}
+
+.profile_card button {
+    float: right;
+    background-color: #569b84;
+    border: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+
+.profile_element {
+    display: block;
+}
+/*End of profile cards*/
+
+
+/*Calendar*/
+.tutoring_hours, #calendarView hr {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 90%
+}
+
+.calendar_table {
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #FEFFFF;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.calendar_table th {
+    border-right: 1px solid white;
+    text-align: left;
+    padding: 1em;
+    color: white;
+    background-color: gray;
+}
+
+.calendar_table td {
+    border: none;
+    padding: 1.5em;
+}
+
+.calendar_table td p {
+    color: gray;
+}
+
+.calendar_table td button {
+    background-color: #569b84;
+    border: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.calendar_button {
+    background-color: #889daf;
+    border: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+/*End of calendar*/
+
+/*Appointment*/
+.appointment_form {
+    margin: .5rem 2rem;
+    display: grid;
+}
+
+.appointment_form input {
+    width: 95%;
+    padding: 1rem 3rem;
+    margin-bottom: .5rem;
+}
+
+.appointment_form textarea {
+    width: 95%;
+    padding: 3em;
+}
+
+.appointment_cancel {
+    width: 95%;
+    margin: .5rem 2rem;
+    background-color: #889daf;
+    border: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: .8rem;
+}
+
+.appointment_book {
+    width: 95%;
+    background-color: #569b84;
+    border: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    padding: 1em 3em;
+    cursor: pointer;
+    border-radius: .8rem;
+    margin: .5rem 2rem;
+}
+/*End of appointment*/

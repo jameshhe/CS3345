@@ -1,0 +1,13 @@
+/* Add your styles here */
+
+main > * {
+    display: none;
+}
+
+main > .active {
+    display: block;
+}
+
+#productDetails img {
+    margin-right: 1rem;
+}

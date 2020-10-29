@@ -1,0 +1,137 @@
+/*Types of Selectors*/
+	/*1. Element Selector*/
+		/*for example, p, a, img, div...*/
+		p {
+			font-color: red;
+		}
+	/*2. Class Selector*/
+		.message-box {
+			border: solid 1px gray;
+			padding: 5px;
+		}
+	/*3. Attribute Selector*/
+		/*selects elements having a specific attribute*/
+		/*for example, the below code applies to any inputs with attribute type "text"*/
+		input[type="text"] {
+			color: red;
+		}
+	/*4. Pseudo-class Selector*/
+		/*selects based on the state of an element*/
+		/*i.e. mouse hover, mouse focus, folowed link*/
+		/*options: active, checked, disabled, empty, enabled, hover, invalid, required, not*/
+		/*for example, when user hovers over links, it turns red*/
+		a:hover {
+			color: red;
+		}
+		/*Selects all p tags NOT having a class of fancy*/
+		p:not(.fancy) {
+
+		}
+	/*5. Pseudo-element Selector*/
+		/*selects only parts of an element*/
+		p::first-letter {
+			color: red;
+			font-size: 25px;
+		}
+	/*6. Multiple Selectors*/
+		/*comma separated, signifies a "OR" relationship*/
+		.important,.alert {
+			font-size: 16px;
+		}
+		/*no space, signifies an "AND" relationship*/
+		.a.b
+	/*7. Contextual Selector*/
+		/*(1) Space: all desendants*/
+		/*All p tags inside of message-box*/
+		.message-box p {
+			text-align: center;
+		}
+		/*(2) Greater than: immediate children*/
+		.message-box > p {
+			text-align: center;
+		}
+		/*(3) Plus sign: adjacent siblings*/
+		.message-box + p {
+			text-align: center;
+		}
+		/*(4) Tilde: all siblings*/
+		.message-box ~ p {
+			text-align: center;
+		}
+
+/*Specificity*/
+	/*selectors with the greatest specificities win*/
+	/*Specificity Ranking*/
+		/*
+		1. Inline Styles
+		2. ID selectors
+		3. Class, attribute, and pseudo-class selectors
+		4. Elements and pseudo-elemnt selectors
+		*/
+	/*If 2 elements have the same specificities, the last to be read wins*/
+	/*Appending !important breaks specificity and should be rarely used!*/
+
+/*Syntax*/
+	/*Global CSS properties*/
+		/*1) auto: sets property to the browsers default*/
+		/*2) initial: sets property to its default value based on prior rules*/
+			/*Sets text color of div to red but keeps the initial color for h1 elements*/
+			div {
+				color: red;
+			}
+			h1 {
+				color: initial;
+			}
+		/*3) inherit: sets property to its parent's value
+	
+	/*Dimensional Values*/
+		/*4 values: top, right, bottom, left (clockwise)*/
+		/*3 values:; top, right/left, bottom*/
+		/*2 values: top/bottom, left/right*/
+		/*1 value: top/right/bottom/left*/
+	
+	/*Colors*/
+		/*Hex colors: #ff0000*/
+			/*short hand: #f00 => #ff0000*/
+		/*RGB: rgb (255, 0, 0)*/
+		/*RGBA: rgba (255, 0, 0, 0.3)*/
+		/*Predefined: red, black, etc.*/
+
+	/*Measurements*/
+		/*Absolute measurements*/
+			/*i.e. px, cm, mm, etc.*/
+		/*Relative measurement*/
+			/*%: percent*/
+			/*em: relative to font size of element*/
+			/*rem: relative to font size of root element (body)*/
+			/*vw: relative to 1% of width of viewport*/
+			/*vh: relative to 1% of height of viewport*/
+			/*viewport is the size of the window*/
+
+
+/*Box Model*/
+	/*Margin: spacing outside of border*/
+	/*Border: spacing of border*/
+	/*Padding: spacing inside of border*/
+	/*box-sizing*/
+		/*border-box*/
+		/*do this first thing in a css*/
+		* {
+			box-sizing: border-box;
+		}
+	/*border-radius: makes the border rounded*/
+	/*z-index*/
+	/*float: allows an element to float to the left or right of its container
+		note: */
+
+/*Display*/
+	/*display: none vs visibility: hidden*/
+		/*display: none hides the element and takes away the real estate of that element's space*/
+
+/*Font*/
+	/*style: italics, oblique...*/
+	/*weight: bold, bolder, lighter...*/
+	/*text-align: left, right, center, justify...*/
+	/*transform: capitalize, uppercase, lowercase...*/
+	/*decoration: underline, overline, line-through*/
+	/*family*/

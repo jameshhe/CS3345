@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	/*Get rid of the link underline*/
+	text-decoration: none;
+}
+
+a:hover {
+	/*Underline on hover*/
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	/*Or say top:0; left:0; right:0*/
+	/*z-index controls the layers*/
+	z-index: 1;
+	background: #000;
+}
+
+main {
+	padding-top: 52px
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	list-style: none;
+	/* Display the navbar elements on one line*/
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #FFF;
+}
+
+/*For the image to float to left*/
+.left {
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.rounded {
+	border-radius: 20rem;
+}
+
+.col-3 {
+	column-count: 3;
+	margin: auto 1rem;
+}
+
+.col-3 p:first-child {
+	margin-top: 0;
+}
+
+.col-3 p:lastchild {
+	margin-bottom: 0
+}
+
+.banner-img {
+	position: relative;
+}
+
+.banner-img img {
+	border: solid 2px red;
+}
+
+.banner-img span {
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+	background: red;
+	color: white;
+	padding: .5rem 1rem;
+}
+
+.scroll-box {
+	height: 10rem;
+	border: solid 1px gray;
+	overflow-y: scroll;
+	padding: 1rem;
+	margin: 1rem auto;
+}

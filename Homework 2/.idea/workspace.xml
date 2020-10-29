@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c78e588-81d9-4d87-ad1b-44b2f261fe5f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1iR4sg0zwer54jM0mJKdYA2exgt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lecture 5 React/React Code Along/accounts" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c78e588-81d9-4d87-ad1b-44b2f261fe5f" name="Default Changelist" comment="" />
+      <created>1601857278679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601857278679</updated>
+      <workItem from="1601857279778" duration="24395000" />
+      <workItem from="1601947640650" duration="1521000" />
+      <workItem from="1603151024279" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="356" y="532" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1601858037270">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="356" y="532" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601858037270" />
+    <state x="736" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601857304120">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601857304120" />
+    <state x="428" y="99" key="FileChooserDialogImpl" timestamp="1603151058398">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="428" y="99" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603151058398" />
+    <state x="141" y="348" key="SettingsEditor" timestamp="1601858052104">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601858052104" />
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1601857740017">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1601857740017" />
+  </component>
+</project>
